@@ -7,35 +7,31 @@
 
 .button_1,
 .button_2 {
-
-
-    font-size: 16px;
-    border: none;
+    font-size: 14px;
     border-radius: 5px;
     cursor: pointer;
     margin: 0.3em;
+    padding: 5px 10px;
+
 }
 
 .button_1 {
-    padding: 10px 20px;
     background-color: #4e7728;
     color: #333;
 }
 
 .button_2 {
-
-    padding: 10px 30px;
+    border-left: 1em;
     background-color: #055c68;
     color: #fff;
 }
 
 .counter {
-    font-size: 0.8em;
+    font-size: 1em;
+    color: #fff;
 }
 
 span {
-
     margin: 1em;
     padding: 1em;
-
 }

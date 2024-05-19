@@ -53,7 +53,7 @@ const residentsPerPage = 8;
 
     <form onSubmit={handlesubmit} className='searcher'>
       <input ref={inputId} type="text" />
-        <button>Search</button>
+        <button className='main__button'>Search</button>
       </form> 
 
        </div>
