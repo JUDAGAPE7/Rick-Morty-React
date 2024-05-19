@@ -1,0 +1,41 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+}
+
+.button_1,
+.button_2 {
+
+
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0.3em;
+}
+
+.button_1 {
+    padding: 10px 20px;
+    background-color: #4e7728;
+    color: #333;
+}
+
+.button_2 {
+
+    padding: 10px 30px;
+    background-color: #055c68;
+    color: #fff;
+}
+
+.counter {
+    font-size: 0.8em;
+}
+
+span {
+
+    margin: 1em;
+    padding: 1em;
+
+}

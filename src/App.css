@@ -1,0 +1,74 @@
+.card__container {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+    margin-bottom: 5em;
+}
+
+
+.font_image-page {
+    width: 100%;
+    height: 250px;
+    background-image: url("/images/portada.png");
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
+
+.searcher {
+    margin: 4em;
+    text-align: center;
+    border-color: white;
+
+}
+
+
+.form {
+    text-align: center;
+    margin: 3em;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 0.4em;
+    font-size: 16px;
+}
+
+button {
+    flex-shrink: 0;
+
+    color: white;
+    background-color: #88bd1f;
+    border: none;
+    border-radius: 0.4em;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+}
+
+@media (min-width: 768px) {
+    .form {
+        margin: 1em auto;
+        max-width: 500px;
+
+    }
+}
+
+
+
+.error_Message {
+    text-align: center;
+
+    font-size: 2em;
+
+
+    @media (min-width: 768px) {
+
+        font-size: 3em;
+    }
+}
